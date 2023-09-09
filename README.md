@@ -3,9 +3,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 1. After downloading ``ChuenApp-2.0.1.zip``, extract the file.
@@ -39,7 +36,8 @@
 - After installing, when typing ``/dice``, the app will show ``Enter dice range:from 1 to ``, enter the range and the app will give you a random number
 ### Wordle
 - In each game, you have 6 attempts to guess a random word
-- When the word contains a letter in your guess but is in the wrong place, the feedback will show ``'O'``
-- When the word contains a letter in your guess and is in the correct place, the feedback will show ``'X'``
-- Other letters will be shown as ``'_'``
+- When the word contains a letter in your guess but is in the wrong place, the feedback will show ``O``
+- When the word contains a letter in your guess and is in the correct place, the feedback will show ``X``
+- Other letters will be shown as ``_``
 - To give up, type ``/give up``
+
