@@ -5,18 +5,29 @@
 - [Features](#features)
 
 ## Installation
-1. After downloading ``ChuenApp-2.0.1.zip``, extract the file.
-2. Click ``ChuenApp-2.0.1/ChuenApp-2.0.1`` then find the ``ChuenApp.exe``.
+1. After downloading ``ChuenApp-3.0.0.zip``, extract the file.
+2. Click ``ChuenApp-3.0.0/ChuenApp-3.0.0`` then find the ``ChuenApp.exe``.
 3. The system may show a blue screen stopping you from open the file, but just click ``More Info`` then ``Run Anyway`` to continue.
 
 ## Usage
+### Run an app
 - When open the app, it will show ``Enter a command: ``
-- Type ``/calculator`` to run a calculator
-- Type ``/clock`` to run a calculator
-- Type ``/install`` to install other apps: ``dice``, ``wordle``
-- In any app, type ``/exit`` to exit the app
+- Type `/` + `<your app name>` to run an app
+- e.g if you type `/calculator` it will run the default app: calculator
+### Add an app
+Adding a app to the system is simple. Follow the instructions.
+1. Put your python script in to the folder `apps`
+2. Open `apps.yml` and add your app to the list. Your python script's name need to be same as in the list.
+3. For example, if I'm adding `calculator.py` to the `apps` folder, I need to put `calculator` in `apps.yml` list.
+   In `apps.yml`:
+   ```
+   apps:
+    - calculator
+   ```
+   The `calculator` statement needs to be same name as the python script. In this example, it is `calculator.py`
 
 ## Features
+There are some default apps that you can use.
 ### Calculator
 - When typing ``/calculator``, the app will show ``(+/-/x/÷): ``
 - Type ``+/-/x/÷`` to add, subtract, multiply or divide
