@@ -1,0 +1,5 @@
+apps:
+  - calculator
+  - clock
+  - dice
+  - wordle
